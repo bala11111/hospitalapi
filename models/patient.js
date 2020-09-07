@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
-const reports = mongoose.Schema({});
-const patientSchema = new mongoose.Mongoose.Schema({
+
+//Creating Patient Schema
+const patientSchema = new mongoose.Schema({
     phoneno: {
         type: String,
         require:true,
@@ -13,21 +14,10 @@ const patientSchema = new mongoose.Mongoose.Schema({
     },
 
     reports: [
-       {
-        status: {
-            type: String,
-            required: true
-        },
-        date: {
-            type:String,
-            required: true
-        },
-
-        doc: {
+        {
             type: mongoose.Schema.Types.ObjectId,
-            ref : "Doctor"
+            ref: 'Report' 
         }
-       }
 
     ]
 },{
