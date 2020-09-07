@@ -8,17 +8,18 @@ The Tech Stack used are:
 
 <h2>This Porject contains the following functionalities:</h2>
 
- 1.Doctor:
-      ----> Here a new Doctor can be registered.
-      ----> The Doctor can login using the credentials used while registering.
+ 1.<ul>Doctor:
+      <li> Here a new Doctor can be registered.</li> 
+      <li>  The Doctor can login using the credentials used while registering.</li> 
+      </ul>
 
- 2.Patients:
-      ----> The Patients can register using their Phone numbers.
-      ----> The report for the patients can be created by the respective Doctor.
-      ----> The Reports of a particular patients can be shown by the latest date.
+ 2.<ul>Patients:
+      <li> The Patients can register using their Phone numbers.</li>
+      <li> The report for the patients can be created by the respective Doctor.</li>
+      <li> The Reports of a particular patients can be shown by the latest date.</li></ul>
 
-3.Report:
-     ----> Can show all the reports of a particular status.
+3.<ul>Report:
+     <li> Can show all the reports of a particular status.</li></ul>
 
 
 <h3>Theme</h3> : <p>We’re going to design an API for the doctors of a Hospital which has been allocated by the govt for testing and quarantine +   well being of COVID-19 patients</p>
