@@ -2,24 +2,27 @@
 
 This Porject is the server side API for the Hospital.
 
-<ul>The Tech Stack used are: <br>
+<ul>The Tech Stack used are: <br><br>
    <li> Node.js</li>
    <li> MongoDB</li></ul>
 
 <h2>This Porject contains the following functionalities:</h2>
 <ol>
  <li>Doctor:
+      <ul>
       <li> Here a new Doctor can be registered.</li> 
       <li>  The Doctor can login using the credentials used while registering.</li> 
+      </ul>
       </li>
 
 <li>Patients:
+     <ul>
       <li> The Patients can register using their Phone numbers.</li>
       <li> The report for the patients can be created by the respective Doctor.</li>
-      <li> The Reports of a particular patients can be shown by the latest date.</li></li>
+      <li> The Reports of a particular patients can be shown by the latest date.</li></ul></li>
 
-<li>Report:
-     <li> Can show all the reports of a particular status.</li></li>
+<li>Report:<ul>
+     <li> Can show all the reports of a particular status.</li></ul></li>
 </ol>
 
 <h3>Theme</h3> : <p>We’re going to design an API for the doctors of a Hospital which has been allocated by the govt for testing and quarantine +   well being of COVID-19 patients</p>
